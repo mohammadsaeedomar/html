@@ -1,1 +1,81 @@
-<h1>hello world page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <style>
+    /* Style the main container */
+    .user-profile {
+      display: flex;
+      flex-wrap: wrap;
+      width: 500px;
+      margin: 50px auto;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    /* Style the profile picture */
+    .profile-picture {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    /* Style the user information */
+    .user-info {
+      flex: 1;  /* Take up remaining space */
+    }
+
+    /* Style headings */
+    h2, h3 {
+      margin: 5px 0;
+    }
+
+    /* Style list items */
+    .info-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .info-list li {
+      margin-bottom: 5px;
+    }
+
+    /* Style social media icons */
+    .social-icons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+
+    .social-icons a {
+      color: #000;
+      font-size: 18px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="user-profile">
+    <img src="profile.jpg" alt="Profile Picture" class="profile-picture">
+    <div class="user-info">
+      <h2>John Doe</h2>
+      <h3>Software Engineer</h3>
+      <ul class="info-list">
+        <li>Email: john.doe@example.com</li>
+        <li>Website: <a href="#">johndoe.com</a></li>
+        <li>Location: New York, NY</li>
+      </ul>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
