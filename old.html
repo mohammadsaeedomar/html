@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saeed Omar</title>
+  <style>
+    /* Style the main container */
+    .user-profile {
+      display: flex;
+      flex-wrap: wrap;
+      width: 700px;
+      margin: 50px auto;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    /* Style the profile picture */
+    .profile-picture {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    /* Style the user information */
+    .user-info {
+      flex: 1;  /* Take up remaining space */
+    }
+
+    /* Style headings */
+    h2, h3 {
+      margin: 5px 0;
+    }
+
+    /* Style list items */
+    .info-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .info-list li {
+      margin-bottom: 5px;
+    }
+
+    /* Style social media icons */
+    .social-icons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+
+    .social-icons a {
+      color: #000;
+      font-size: 18px;
+      text-decoration: none;
+      box-shadow:0px 0px 2px gray; 
+    }
+    .jobs{
+      border:2px solid gray;
+    }
+  </style>
+</head>
+<body>
+  <div class="user-profile">
+    <img src="profile.jpg" alt="Profile Picture" class="profile-picture">
+    <div class="user-info">
+      <h2>Saeed Azimi</h2>
+      <h3>Teacher & Software Developer</h3>
+      <ul class="info-list">
+        <li>Email: john.doe@example.com</li>
+        <li>Website: <a href="#">johndoe.com</a></li>
+        <li>Location: Herat , Afghanistan</li>
+      </ul>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-twitter">twitter</i></a>
+        <a href="#"><i class="fab fa-linkedin">Linkedin</i></a>
+        <a href="#"><i class="fab fa-github">Github</i></a>
+      </div>
+
+      <div class="jobs"> This is Jobs part </div>
+    </div>
+  </div>
+</body>
+</html>
